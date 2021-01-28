@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>Страница библиотеки</title>
+</head>
+<body>
+    <div class="hello">
+        <h3>Билиотека</h3>
+        <hr>
+        <h6 class="link"><a href="http://127.0.0.1:8000/admin/">Страница администратора</a></h6>
+        <h6 class="link"><a href="http://127.0.0.1:8000/lib/test/">Страница теста</a></h6>
+        <h6 class="link"><a href="http://127.0.0.1:8000/lib/author/create/">Страница добавления автора</a></h6>
+        <h6 class="link"><a href="http://127.0.0.1:8000/lib/author/create_many/">Страница добавления авторов</a></h6>
+        <h6 class="link"><a href="http://127.0.0.1:8000/lib/author_book/create_many/">Страница добавления автора и книги</a></h6>
+        <h6 class="link"><a href="http://127.0.0.1:8000/lib/authors/">Список авторов</a></h6>
+        <h6 class="link"><a href="http://127.0.0.1:8000/lib/books/">Список книг</a></h6>
+        <h6 class="link"><a href="http://127.0.0.1:8000/pub/">Страница издательств</a></h6>
+        <h6 class="link"><a href="http://127.0.0.1:8000/friend/">Страница друзей</a></h6>
+    </div>
+</body>
+</html>
